@@ -1,10 +1,12 @@
-# 50 Projects in 50 Days
+# 50 Projects in 50 Days: Movie App
 
 This project was created by following the Udemy tutorial: [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/?couponCode=24T3MT53024).
 
 ## Description
 
-These are 50 mini projects that can be used in other web development projects.
+This app displays a library of movies to a user. A description of the movie appears when a user's mouse hovers over it. Users can also search for movies. Movie information comes from The Movie Database API.
+
+https://www.themoviedb.org/
 
 ## Acknowledgements
 
