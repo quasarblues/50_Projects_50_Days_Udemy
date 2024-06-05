@@ -4,7 +4,7 @@ This project was created by following the Udemy tutorial: [50 Projects In 50 Day
 
 ## Description
 
-These are 50 mini projects that can be used in other web development projects.
+Users type a profile name into the search bar and a GitHub user profile is returned. Links to the profile's latest 10 repos are linked. An error message appears if it's unable to find a GitHub profile.
 
 ## Acknowledgements
 
