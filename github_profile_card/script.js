@@ -9,7 +9,9 @@ async function getUser(username) {
         const { data } = await axios(APIURL + username);
         createUserCard(data);
     } catch (err) {
-        console.log(err);
+        if (err.response.status == 404) {
+            createErrorCard('We could not find a profile with that username. 😞');
+        }
     }
 }
 
@@ -23,13 +25,22 @@ function createUserCard(user) {
       <h2>${user.name}</h2>
       <p>${user.bio}.</p>
       <ul>
-        <li>${user.followers} <strong>Followers</strong></li>
-        <li>${user.following} <strong>Following</strong></li>
-        <li>${user.public_repos} <strong>Repos</strong></li>
+      <li>${user.followers}<strong>Followers</strong></li>
+        <li>${user.following}<strong>Following</strong></li>
+        <li>${user.public_repos}<strong>Repos</strong></li>
       </ul>
       <div id="repo-container">
         
       </div>
+    </div>
+    `
+    main.innerHTML = cardHTML;
+}
+
+function createErrorCard(msg) {
+    const cardHTML = `
+    <div class="card">
+<h1>${msg}</h1>
     </div>
     `
     main.innerHTML = cardHTML;
