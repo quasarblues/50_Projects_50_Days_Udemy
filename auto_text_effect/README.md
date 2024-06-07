@@ -1,10 +1,14 @@
-# 50 Projects in 50 Days
+# 50 Projects in 50 Days: Auto Text Generator
 
 This project was created by following the Udemy tutorial: [50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/?couponCode=24T3MT53024).
 
 ## Description
 
-These are 50 mini projects that can be used in other web development projects.
+A text message is automatically displayed on the screen. 
+
+The message can be changed by typing in the box.
+
+The speed at which the message is displayed can be changed as well.
 
 ## Acknowledgements
 
