@@ -6,6 +6,8 @@ This project was created by following the Udemy tutorial: [50 Projects In 50 Day
 
 This project generates a password that can be copied to a clipboard.
 
+I updated this project to randomize the characters used in the password. I used the 'Knuth Shuffle' method.
+
 ## Acknowledgements
 
 I would like to give credit to instructors [Brad Traversy](https://www.udemy.com/user/brad-traversy/) and [Florin Pop](https://www.udemy.com/user/popflorin/)  for the excellent tutorial. The course provided invaluable insights and guidance throughout the project.
